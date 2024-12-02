@@ -37,7 +37,7 @@ function SearchRecipes() {
         },
         {
           headers: {
-            Authorization: `Bearer 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`, // Eingebundener API-Key
+            Authorization: `Bearer `, // Eingebundener API-Key
             "Content-Type": "application/json",
           },
         }
