@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GourmAI/static/css/main.5885c5c0.css",
+    "main.js": "/GourmAI/static/js/main.4a00a723.js",
+    "static/js/453.dc688404.chunk.js": "/GourmAI/static/js/453.dc688404.chunk.js",
+    "index.html": "/GourmAI/index.html",
+    "main.5885c5c0.css.map": "/GourmAI/static/css/main.5885c5c0.css.map",
+    "main.4a00a723.js.map": "/GourmAI/static/js/main.4a00a723.js.map",
+    "453.dc688404.chunk.js.map": "/GourmAI/static/js/453.dc688404.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5885c5c0.css",
+    "static/js/main.4a00a723.js"
+  ]
+}
