@@ -25,7 +25,8 @@ function SearchRecipes() {
           messages: [
             {
               role: "system",
-              content: "You are an assistant that helps users find recipes by receiving their available ingredients.",
+              content:
+                "You are an assistant that helps users find recipes by receiving their available ingredients.",
             },
             {
               role: "user",
@@ -37,7 +38,7 @@ function SearchRecipes() {
         },
         {
           headers: {
-            Authorization: `Bearer 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`, // Eingebundener API-Key
+            Authorization: `Bearer ${process.env.REACT_APP_OPENAI_API_KEY}`, // API-Key aus Umgebungsvariable
             "Content-Type": "application/json",
           },
         }
