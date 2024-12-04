@@ -1,16 +1,18 @@
 import React from 'react';
+import image2 from "../images/istockphoto-1446043855-2048x2048.jpg"
+import image3 from "../images/happy-1836445_960_720.jpg"
 
 function Testimonials() {
   const testimonials = [
     {
       name: "Emily Johnson",
       text: "I found a fantastic recipe with just a few ingredients!",
-      image: "/images/istockphoto-1446043855-2048x2048.jpg",
+      image: image2,
     },
     {
       name: "Michael Smith",
       text: "This service transformed my cooking experience completely!",
-      image: "/images/happy-1836445_960_720.jpg",
+      image: image3,
     },
   ];
 

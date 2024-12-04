@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
+import image1 from "../images/istockphoto-1214416414-2048x2048.jpg"
 
 function Hero({ onGetStarted }) {
   return (
@@ -16,7 +17,7 @@ function Hero({ onGetStarted }) {
       </div>
       <div className="hero-image-container">
         <img
-          src="/images/istockphoto-1214416414-2048x2048.jpg"
+          src={image1}
           alt="Delicious Food"
           className="hero-image"
         />

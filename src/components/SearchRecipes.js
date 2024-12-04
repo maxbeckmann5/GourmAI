@@ -33,7 +33,7 @@ function SearchRecipes() {
               content: query,
             },
           ],
-          max_tokens: 100, // Max. Länge der Antwort
+          max_tokens: 300, // Max. Länge der Antwort
           temperature: 0.7, // Kreativitätsgrad
         },
         {
